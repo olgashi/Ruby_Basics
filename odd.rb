@@ -1,9 +1,6 @@
+#returns true if number is odd, false if it is even
 def odd_tf(num)
-	if num.abs%2==0
-		return false
-	else
-		return true
-	end
+	num.abs.remainder(2) == 1
 end
 
 puts odd_tf(2)

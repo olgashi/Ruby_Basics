@@ -4,6 +4,6 @@ def reverse_words(words)
       word.reverse!
     end
     end
-  end
+end
 
 puts reverse_words("Walk around the block")

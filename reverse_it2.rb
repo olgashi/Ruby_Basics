@@ -3,7 +3,7 @@ def reverse_words(words)
     if word.length > 4 
       word.reverse!
     end
-    end
+  end
 end
 
 puts reverse_words("Walk around the block")

@@ -1,3 +1,3 @@
 def reverse_sentence(str)
-	str.split(' ').reverse.join(' ')
+  str.split(' ').reverse.join(' ')
 end
